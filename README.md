@@ -13,7 +13,7 @@ The data will then be ingested into Azure Data Lake Gen2, using ADF. Once the da
 - Azure Data Lake Storage Gen2
 
 ## Solution Architecture
-[image](#https://github.com/jpnotsodev/Covid19Predictions/blob/master/img/339961933_189824550474508_8326684445169333129_n.png)
+![image](#https://github.com/jpnotsodev/Covid19Predictions/blob/master/img/339961933_189824550474508_8326684445169333129_n.png)
 
 
 ## Data Ingestion
