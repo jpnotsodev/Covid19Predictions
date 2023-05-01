@@ -16,13 +16,7 @@ The data will then be ingested into Azure Data Lake Gen2, using ADF. Once the da
 ![image](https://github.com/jpnotsodev/Covid19Predictions/blob/master/img/339961933_189824550474508_8326684445169333129_n.png "Solution Architecture")
 
 
-## Data Ingestion
-To ingest data into our Azure Data Lake Storage, we'll be using a [copy activity](#http://google.com). Copy Activity let's you copy data from one data store to another, and is capable of bringing data that are both on-premise and in cloud.
-
-To use a Copy Activity, you'll have to do the following:
-
-- Create a Linked Service (for both sink and source)
-- Create a Dataset
-- Create a Pipeline with a Copy Activity
-
-## Data Transformation
+## Dataflow
+### Ingestion
+- A pipeline with a copy activity will be created to ingest data from one data store to another.
+- The ingested data will be stored in our data lake storage gen2, 
