@@ -12,6 +12,9 @@ The data will then be ingested into Azure Data Lake Gen2, using ADF. Once the da
 - Azure Blob Storage
 - Azure Data Lake Storage Gen2
 
+## Solution Architecture
+[image](#https://github.com/jpnotsodev/Covid19Predictions/blob/master/img/339961933_189824550474508_8326684445169333129_n.png)
+
 
 ## Data Ingestion
 To ingest data into our Azure Data Lake Storage, we'll be using a [copy activity](#http://google.com). Copy Activity let's you copy data from one data store to another, and is capable of bringing data that are both on-premise and in cloud.
