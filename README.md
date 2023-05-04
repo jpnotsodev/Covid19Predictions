@@ -56,6 +56,33 @@ This section will describe how you can ingest data from multiple sources using [
 6. Set Source dataset to `HTTPSourceDataSet`.
 7. Set Sink dataset to `ADLSSinkDataSet`.
 
+Your `raw` folder should look like the following:
+
+```
+\raw
+    \populations
+        populations.csv
+    \cases and deaths
+        cases_and_deaths.csv
+    \hospital admissions
+        hospital_admissions.csv
+    \testing
+        testing.csv
+    ...
+```
+
+```
+\processed
+    \populations
+        ._SUCCESS.crc
+        .part-00000-896e21a0-5c3a-4545-951b-5e9aea971fbe-c000.csv.crc
+        _SUCCESS
+        part-00000-896e21a0-5c3a-4545-951b-5e9aea971fbe-c000.csv
+        part-00001-896e21a0-5c3a-4545-951b-5e9aea971fbe-c000.csv
+        part-00003-896e21a0-5c3a-4545-951b-5e9aea971fbe-c000.csv
+        ...
+```
+
 ### Stage 2: Transformation
 
 ### Stage 3: Store
